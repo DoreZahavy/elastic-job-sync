@@ -2,8 +2,9 @@ import configProd from './prod.js'
 import configDev from './dev.js'
 
 interface Config {
-  dbURL: string | undefined;
-  dbName: string | undefined;
+  dbURL: string | undefined
+  dbName: string | undefined
+  // esNode: string | undefined
   esCloud: string | undefined
   esUsername: string | undefined
   esPassword: string | undefined
