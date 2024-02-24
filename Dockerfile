@@ -1,7 +1,7 @@
 FROM node:21-alpine3.18
 
 COPY package.json /app/
-COPY dist 
+COPY dist /app/
 
 WORKDIR /app
 
